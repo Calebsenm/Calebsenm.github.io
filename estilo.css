@@ -99,6 +99,35 @@ body{
 
 }
 
+/* This is for the Blog */
+.Cajas{
+
+    
+}
+.Caja1{
+    height: 100%;
+    width: 100%;
+    background: rgb(21, 47, 51);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+#pepe{
+    text-align: center;
+    color: aqua;
+}
+#pepe1{
+    text-align: center;
+    margin: 20px;
+    color: antiquewhite;
+}
+/* .Caja1{
+    height: 10px;
+    width: 100%;
+    background: rgb(2, 213, 250);
+} */
+
 
 
 
