@@ -111,17 +111,34 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
     
-
 }
 #pepe{
     text-align: center;
+   
     color: aqua;
+    padding-top: 10px;
 }
 #pepe1{
     text-align: center;
+   
     margin: 20px;
     color: antiquewhite;
+    padding: 10px;
 }
+/* imagen del iperbinculo */
+.img_1{
+    display: inline-block; width: 80%; height: auto;
+   display: inline-block;
+  
+}
+.img_2{
+    float: left;
+    display: inline-block;
+    width: 20%; height: auto;
+    /*  */
+   
+}
+
 /* .Caja1{
     height: 10px;
     width: 100%;
