@@ -214,6 +214,19 @@ Para los Tutoriales
 }
 
 
+/*Contenido Temas*/
+.contenidoTemas{
+
+text-justify:center;    
+ 
+}
+
+.Text1{
+
+    margin: 10px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 950px) {
 	header .logo,
 	header nav {
