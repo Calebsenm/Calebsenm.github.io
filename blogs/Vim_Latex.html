@@ -87,10 +87,19 @@
 
               Ademas si colocas <br>
 
-              zathura -pdf -pvc documento.pdf  <br>
+              latexmk -pdf -pvc documento.pdf  <br>
+
+              ahora creamos en el directorio      ->  .config/latexmk  
+
+              ahora configura latexmk para que abra por defecto zathura al pdf 
+              <br>
+
+              touch latexmkrc     -> con el contenido  $pdf _previewer = 'zathura';
+
 
               <br>
-            
+
+
               Ahora lo puedes tener como  corriendo en segundo plano mientras editas el archivo y los cambios se van a guardar  y mostrar en el pdf 
               </p>
             
