@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+body{
+    background-color: rgb(33, 37, 46);
+}
+/* navegacion frontal */
+
+
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float * Controla para que el texto no se salga del cuadro asignado */ 
+	background:#252932;
+	margin-bottom:20px; /* Espacio fuera de la caja */
+}
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+header nav {
+	float:right;
+	line-height:50px; /*Salto entr las lineas*/
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+    background: hsl(17, 90%, 59%);
+	border-radius:50px;
+}
+
+
+.Supercaja{
+    height: 2000px;
+   
+
+}
+
+
+
+/* navegacion frontal */
+
+.barra li a:hover{
+     
+    background: rgb(2, 213, 250);
+}
+
+header nav a:hover {
+    background:rgb(0, 189, 236);
+	border-radius:30px;
+}
+
+
+/* iconos */
+
+.iconos2{
+    padding-top: 50px;
+    width: 100px;
+    position: fixed;
+    
+}
+.icono{
+    
+    color:rgb(0, 189, 236);
+    font-size: 40px;
+    
+}
+.iconos{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+ 
+}
+
+
+
+/* cuerpo de la pagina */
+.contenido{
+    
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+
+.CajaMadre{
+    color: azure;
+    text-align: justify;
+}
+.MiniCaja{
+    
+
+}
+
+/* This is for the Blog */
+.Cajas{
+
+    
+}
+.Caja1{
+    height: 100%;
+    width: 100%;
+    background: rgb(21, 47, 51);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+#pepe{
+    text-align: center;
+   
+    color: aqua;
+    padding-top: 10px;
+}
+#pepe1{
+    text-align: center;
+   
+    margin: 20px;
+    color: antiquewhite;
+    padding: 10px;
+}
+/* imagen del iperbinculo */
+.img_1{
+    display: inline-block; width: 80%; height: auto;
+   display: inline-block;
+  
+}
+.img_2{
+    float: left;
+    display: inline-block;
+    width: 20%; height: auto;
+    /*  */
+   
+}
+
+/* .Caja1{
+    height: 10px;
+    width: 100%;
+    background: rgb(2, 213, 250);
+} */
+
+/* 
+
+Para los Tutoriales 
+} */
+
+
+
+
+.link {
+    color: #fff;
+	text-decoration:none;/* Quita el el subraya miento del a o enlace */
+    background:#252932;
+	border-radius:10px;
+	text-decoration:none; /*Quita la decoracion*/ 
+	padding:10px ; 
+    
+
+	font-size:20px;
+	font-weight:bold; 
+
+    width: 80%;
+    height: 50px;
+    text-align: justify;
+
+   margin: 10px;
+}
+
+
+.link2{
+	text-decoration: none;
+	line-height: 10px;
+	color: #fff;
+    display:inline-block; /*Coloca los div verticalmente para que estan a la derecha*/
+    width: 99%;
+	height: 100%;
+	padding:5px ; 
+	font-weight:bold; 
+    line-height:20px;
+    margin: 0px;
+    height: 40px;
+    
+}
+
+
+.link :hover{ /*Cuando se selecciona el div*/
+	background:rgb(21, 98, 118);
+	border-radius:10px;
+    color: rgb(255, 255, 255);
+	font-size:20px;
+	font-weight:bold; /*Tipo de letra o ancho de la letra*/
+   
+
+}
+
+
+/*Contenido Temas*/
+.contenidoTemas{
+
+text-justify:center;    
+ 
+}
+
+.Text1{
+
+    margin: 10px;
+    font-weight: bold;
+}
+
+/*  Inicio y Conteido de la pagina Principal  */
+.TittlePage{
+  text-align: center;
+}
+.ContentPage{
+
+  background: rgb(33,36,50);
+  padding: 15px;
+  font-size: 20px;
+  border : white 5px solid ;
+  margin-top: 10px;
+  border-radius: 10px;
+} 
+
+@media screen and (max-width: 950px) {
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:40px;
+
+	}
+
+	.header2 {
+		height:auto;
+	}
+
+	.header2 .logo,
+	.header2 nav {
+		line-height:50px;
+	}
+}
+
+
+
+
+
